@@ -10,7 +10,7 @@
   <remote fetch="https://github.com/OSSystems" name="oss"/>
   <remote fetch="https://github.com/kraj" name="clang"/>
   <remote fetch="https://github.com/ilyaikik" name="ilyaikik"/>
-  <remote fetch="https://github.com/kraj" name="clang"/>
+  <remote fetch="https://github.com/meta-qt5" name="meta-qt5"/>
 
   <project remote="boundary" name="boundary-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
