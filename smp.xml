@@ -8,6 +8,8 @@
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://github.com/boundarydevices" name="boundary"/>
   <remote fetch="https://github.com/OSSystems" name="oss"/>
+  <remote fetch="https://github.com/meta-rust" name="rust"/>
+  <remote fetch="https://code.qt.io/yocto" name="playground"/>
   <remote fetch="https://github.com/kraj" name="clang"/>
   <remote fetch="https://github.com/ilyaikik" name="ilyaikik"/>
   <remote fetch="https://github.com/meta-qt5" name="meta-qt5"/>
@@ -18,15 +20,15 @@
   </project>
 
   <project remote="yocto" name="poky" path="sources/poky"/>
-  <project remote="yocto" name="meta-freescale" path="sources/meta-freescale"/>
   <project remote="oe" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="yocto" name="meta-freescale" path="sources/meta-freescale"/>
   <project remote="freescale" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
   <project remote="freescale" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
   <project remote="freescale" name="meta-freescale-ml" path="sources/meta-freescale-ml"/>
   <project remote="freescale" name="Documentation" path="sources/Documentation"/>
-  <project remote="oss" name="meta-browser" path="sources/meta-browser"/>
+  <project remote="oss" revision="e232c2e21b96dc092d9af8bea4b3a528e7a46dd6" name="meta-browser" path="sources/meta-browser"/>
+  <project remote="clang"  revision="c728c3f9168c8a4ed05163a51dd48ca1ad8ac21d" name="meta-clang" path="sources/meta-clang"/>
   <project remote="boundary" name="meta-boundary" path="sources/meta-boundary"/>
-  <project remote="clang" name="meta-clang" path="sources/meta-clang"/>
   <project remote="meta-qt5" name="meta-qt5" path="sources/meta-qt5"/>
   <project remote="ilyaikik" name="meta-megatral" path="sources/meta-megatral"/>
 
