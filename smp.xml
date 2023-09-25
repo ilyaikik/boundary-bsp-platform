@@ -11,7 +11,7 @@
   <remote fetch="https://github.com/meta-rust" name="rust"/>
   <remote fetch="https://code.qt.io/yocto" name="playground"/>
   <remote fetch="https://github.com/kraj" name="clang"/>
-  <remote fetch="https://github.com/ilyaikik" name="ilyaikik"/>
+  <remote fetch="git@github.com:ilyaikik" name="ilyaikik"/>
   <remote fetch="https://github.com/meta-qt5" name="meta-qt5"/>
 
   <project remote="boundary" name="boundary-bsp-base" path="sources/base">
