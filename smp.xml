@@ -15,7 +15,7 @@
   <remote fetch="https://github.com/meta-qt5" name="meta-qt5"/>
 
   <project remote="ilyaikik" name="megatral-bsp-base" path="sources/base">
-	<copyfile dest="README" src="README"/>
+	<copyfile dest="README.md" src="README.md"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
   </project>
 
